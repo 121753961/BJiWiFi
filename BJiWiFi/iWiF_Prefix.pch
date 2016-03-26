@@ -1,0 +1,37 @@
+//
+//  iWiF_Prefix.pch
+//  BJiWiFi
+//
+//  Created by kuangbing on 16/2/20.
+//  Copyright © 2016年 Kunagbing. All rights reserved.
+//
+
+#ifndef iWiF_Prefix_pch
+#define iWiF_Prefix_pch
+
+#import "BJiWiFiConst.h" //共用的头文件
+#import "BJiWiFiImport.h" //共用的常量
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// 颜色和透明度设置
+#define kRgba(r,g,b,a) [UIColor colorWithRed:(float)r/255.0f green:(float)g/255.0f blue:(float)b/255.0f alpha:a]
+
+// 获得RGB颜色
+#define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+// 随机色
+#define kRandomColor kColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// 自定义Log
+#ifdef DEBUG
+#define BJLog(...) NSLog(__VA_ARGS__)
+#else
+#define BJLog(...)
+#endif
+
+
+
+#endif /* iWiF_Prefix_pch */

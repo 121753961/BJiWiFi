@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B61E541C79E21600C6C4B0 /* BJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B61E531C79E21600C6C4B0 /* BJHomeViewController.m */; };
+		00B61E581C79E42000C6C4B0 /* BJHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B61E561C79E42000C6C4B0 /* BJHomeCell.m */; };
+		00B61E591C79E42000C6C4B0 /* BJHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B61E571C79E42000C6C4B0 /* BJHomeCell.xib */; };
+		00B61E5C1C79E57800C6C4B0 /* BJHomeCellTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B61E5B1C79E57800C6C4B0 /* BJHomeCellTool.m */; };
+		00B61E601C79E71B00C6C4B0 /* BJHomeHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B61E5E1C79E71B00C6C4B0 /* BJHomeHeaderCell.m */; };
+		00B61E611C79E71B00C6C4B0 /* BJHomeHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B61E5F1C79E71B00C6C4B0 /* BJHomeHeaderCell.xib */; };
+		00B61E651C79EDB900C6C4B0 /* BJHomeAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B61E631C79EDB900C6C4B0 /* BJHomeAdCell.m */; };
+		00B61E661C79EDB900C6C4B0 /* BJHomeAdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B61E641C79EDB900C6C4B0 /* BJHomeAdCell.xib */; };
+		00FF13CD1C7DDCD3001B16B6 /* BJHomeBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FF13CC1C7DDCD3001B16B6 /* BJHomeBottomView.m */; };
+		00FF13CF1C7DDCEE001B16B6 /* BJHomeBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FF13CE1C7DDCEE001B16B6 /* BJHomeBottomView.xib */; };
+		22866E8633D52D545748180D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9214F3C2DC3D8078739CEE89 /* libPods.a */; };
+		2A638AAB1C79B79700069061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A638AAA1C79B79700069061 /* main.m */; };
+		2A638AAE1C79B79700069061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A638AAD1C79B79700069061 /* AppDelegate.m */; };
+		2A638AB11C79B79700069061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A638AB01C79B79700069061 /* ViewController.m */; };
+		2A638AB41C79B79800069061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A638AB21C79B79800069061 /* Main.storyboard */; };
+		2A638AB61C79B79800069061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A638AB51C79B79800069061 /* Assets.xcassets */; };
+		2A638AC41C79B79800069061 /* BJiWiFiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A638AC31C79B79800069061 /* BJiWiFiTests.m */; };
+		2A638ACF1C79B79800069061 /* BJiWiFiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A638ACE1C79B79800069061 /* BJiWiFiUITests.m */; };
+		2A638AF41C79BAA900069061 /* BJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A638AF31C79BAA900069061 /* BJMainViewController.m */; };
+		2A638B031C79BF2B00069061 /* BJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A638B021C79BF2B00069061 /* BJNavigationController.m */; };
+		2A7D4B581C7A9C4C004FCD31 /* iwifi006.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B501C7A9C4B004FCD31 /* iwifi006.json */; };
+		2A7D4B591C7A9C4C004FCD31 /* iwifi001.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B511C7A9C4C004FCD31 /* iwifi001.json */; };
+		2A7D4B5A1C7A9C4C004FCD31 /* iwifi005.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B521C7A9C4C004FCD31 /* iwifi005.json */; };
+		2A7D4B5B1C7A9C4C004FCD31 /* iwifi007.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B531C7A9C4C004FCD31 /* iwifi007.json */; };
+		2A7D4B5C1C7A9C4C004FCD31 /* iwifi004.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B541C7A9C4C004FCD31 /* iwifi004.json */; };
+		2A7D4B5D1C7A9C4C004FCD31 /* iwifi008--.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B551C7A9C4C004FCD31 /* iwifi008--.json */; };
+		2A7D4B5E1C7A9C4C004FCD31 /* iwifi003.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B561C7A9C4C004FCD31 /* iwifi003.json */; };
+		2A7D4B5F1C7A9C4C004FCD31 /* iwifi002.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D4B571C7A9C4C004FCD31 /* iwifi002.json */; };
+		2A7D4B621C7A9ED2004FCD31 /* BJHomeItmesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D4B611C7A9ED2004FCD31 /* BJHomeItmesModel.m */; };
+		2A7D4B651C7A9EFC004FCD31 /* BJHomeResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D4B641C7A9EFC004FCD31 /* BJHomeResultModel.m */; };
+		2A7D4B691C7AA365004FCD31 /* BJiWiFiConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D4B671C7AA365004FCD31 /* BJiWiFiConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A638AC01C79B79800069061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A638A9E1C79B79700069061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A638AA51C79B79700069061;
+			remoteInfo = BJiWiFi;
+		};
+		2A638ACB1C79B79800069061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A638A9E1C79B79700069061 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A638AA51C79B79700069061;
+			remoteInfo = BJiWiFi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B61E521C79E21600C6C4B0 /* BJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeViewController.h; sourceTree = "<group>"; };
+		00B61E531C79E21600C6C4B0 /* BJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeViewController.m; sourceTree = "<group>"; };
+		00B61E551C79E42000C6C4B0 /* BJHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeCell.h; sourceTree = "<group>"; };
+		00B61E561C79E42000C6C4B0 /* BJHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeCell.m; sourceTree = "<group>"; };
+		00B61E571C79E42000C6C4B0 /* BJHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJHomeCell.xib; sourceTree = "<group>"; };
+		00B61E5A1C79E57800C6C4B0 /* BJHomeCellTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeCellTool.h; sourceTree = "<group>"; };
+		00B61E5B1C79E57800C6C4B0 /* BJHomeCellTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeCellTool.m; sourceTree = "<group>"; };
+		00B61E5D1C79E71B00C6C4B0 /* BJHomeHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeHeaderCell.h; sourceTree = "<group>"; };
+		00B61E5E1C79E71B00C6C4B0 /* BJHomeHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeHeaderCell.m; sourceTree = "<group>"; };
+		00B61E5F1C79E71B00C6C4B0 /* BJHomeHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJHomeHeaderCell.xib; sourceTree = "<group>"; };
+		00B61E621C79EDB900C6C4B0 /* BJHomeAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeAdCell.h; sourceTree = "<group>"; };
+		00B61E631C79EDB900C6C4B0 /* BJHomeAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeAdCell.m; sourceTree = "<group>"; };
+		00B61E641C79EDB900C6C4B0 /* BJHomeAdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJHomeAdCell.xib; sourceTree = "<group>"; };
+		00FF13CB1C7DDCD3001B16B6 /* BJHomeBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeBottomView.h; sourceTree = "<group>"; };
+		00FF13CC1C7DDCD3001B16B6 /* BJHomeBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeBottomView.m; sourceTree = "<group>"; };
+		00FF13CE1C7DDCEE001B16B6 /* BJHomeBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJHomeBottomView.xib; sourceTree = "<group>"; };
+		2A638AA61C79B79700069061 /* BJiWiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJiWiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A638AAA1C79B79700069061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A638AAC1C79B79700069061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A638AAD1C79B79700069061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A638AAF1C79B79700069061 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A638AB01C79B79700069061 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A638AB31C79B79800069061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A638AB51C79B79800069061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A638ABA1C79B79800069061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A638ABF1C79B79800069061 /* BJiWiFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJiWiFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A638AC31C79B79800069061 /* BJiWiFiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJiWiFiTests.m; sourceTree = "<group>"; };
+		2A638AC51C79B79800069061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A638ACA1C79B79800069061 /* BJiWiFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJiWiFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A638ACE1C79B79800069061 /* BJiWiFiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJiWiFiUITests.m; sourceTree = "<group>"; };
+		2A638AD01C79B79800069061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A638AE51C79B8C000069061 /* iWiF_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWiF_Prefix.pch; sourceTree = "<group>"; };
+		2A638AF21C79BAA900069061 /* BJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJMainViewController.h; sourceTree = "<group>"; };
+		2A638AF31C79BAA900069061 /* BJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJMainViewController.m; sourceTree = "<group>"; };
+		2A638B011C79BF2B00069061 /* BJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJNavigationController.h; sourceTree = "<group>"; };
+		2A638B021C79BF2B00069061 /* BJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJNavigationController.m; sourceTree = "<group>"; };
+		2A7D4B501C7A9C4B004FCD31 /* iwifi006.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iwifi006.json; sourceTree = "<group>"; };
+		2A7D4B511C7A9C4C004FCD31 /* iwifi001.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iwifi001.json; sourceTree = "<group>"; };
+		2A7D4B521C7A9C4C004FCD31 /* iwifi005.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iwifi005.json; sourceTree = "<group>"; };
+		2A7D4B531C7A9C4C004FCD31 /* iwifi007.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iwifi007.json; sourceTree = "<group>"; };
+		2A7D4B541C7A9C4C004FCD31 /* iwifi004.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iwifi004.json; sourceTree = "<group>"; };
+		2A7D4B551C7A9C4C004FCD31 /* iwifi008--.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "iwifi008--.json"; sourceTree = "<group>"; };
+		2A7D4B561C7A9C4C004FCD31 /* iwifi003.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iwifi003.json; sourceTree = "<group>"; };
+		2A7D4B571C7A9C4C004FCD31 /* iwifi002.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iwifi002.json; sourceTree = "<group>"; };
+		2A7D4B601C7A9ED1004FCD31 /* BJHomeItmesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeItmesModel.h; sourceTree = "<group>"; };
+		2A7D4B611C7A9ED2004FCD31 /* BJHomeItmesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeItmesModel.m; sourceTree = "<group>"; };
+		2A7D4B631C7A9EFC004FCD31 /* BJHomeResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHomeResultModel.h; sourceTree = "<group>"; };
+		2A7D4B641C7A9EFC004FCD31 /* BJHomeResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHomeResultModel.m; sourceTree = "<group>"; };
+		2A7D4B661C7AA365004FCD31 /* BJiWiFiConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJiWiFiConst.h; sourceTree = "<group>"; };
+		2A7D4B671C7AA365004FCD31 /* BJiWiFiConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJiWiFiConst.m; sourceTree = "<group>"; };
+		2A7D4B681C7AA365004FCD31 /* BJiWiFiImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJiWiFiImport.h; sourceTree = "<group>"; };
+		42FF6D09FFCD5188C14A5DFA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9214F3C2DC3D8078739CEE89 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6243B33A8201CB0DF258391 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A638AA31C79B79700069061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22866E8633D52D545748180D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A638ABC1C79B79800069061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A638AC71C79B79800069061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F12A8CFB25B32CA1CA0759 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42FF6D09FFCD5188C14A5DFA /* Pods.debug.xcconfig */,
+				A6243B33A8201CB0DF258391 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A638A9D1C79B79700069061 = {
+			isa = PBXGroup;
+			children = (
+				2A638AA81C79B79700069061 /* BJiWiFi */,
+				2A638AC21C79B79800069061 /* BJiWiFiTests */,
+				2A638ACD1C79B79800069061 /* BJiWiFiUITests */,
+				2A638AA71C79B79700069061 /* Products */,
+				11F12A8CFB25B32CA1CA0759 /* Pods */,
+				C3561159C9F978283B38C0AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A638AA71C79B79700069061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A638AA61C79B79700069061 /* BJiWiFi.app */,
+				2A638ABF1C79B79800069061 /* BJiWiFiTests.xctest */,
+				2A638ACA1C79B79800069061 /* BJiWiFiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A638AA81C79B79700069061 /* BJiWiFi */ = {
+			isa = PBXGroup;
+			children = (
+				2A638AE61C79BA7B00069061 /* Classes */,
+				2A638AAC1C79B79700069061 /* AppDelegate.h */,
+				2A638AAD1C79B79700069061 /* AppDelegate.m */,
+				2A638AAF1C79B79700069061 /* ViewController.h */,
+				2A638AB01C79B79700069061 /* ViewController.m */,
+				2A638AB21C79B79800069061 /* Main.storyboard */,
+				2A638AB51C79B79800069061 /* Assets.xcassets */,
+				2A638ABA1C79B79800069061 /* Info.plist */,
+				2A638AA91C79B79700069061 /* Supporting Files */,
+			);
+			path = BJiWiFi;
+			sourceTree = "<group>";
+		};
+		2A638AA91C79B79700069061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A638AE51C79B8C000069061 /* iWiF_Prefix.pch */,
+				2A638AAA1C79B79700069061 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A638AC21C79B79800069061 /* BJiWiFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A638AC31C79B79800069061 /* BJiWiFiTests.m */,
+				2A638AC51C79B79800069061 /* Info.plist */,
+			);
+			path = BJiWiFiTests;
+			sourceTree = "<group>";
+		};
+		2A638ACD1C79B79800069061 /* BJiWiFiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A638ACE1C79B79800069061 /* BJiWiFiUITests.m */,
+				2A638AD01C79B79800069061 /* Info.plist */,
+			);
+			path = BJiWiFiUITests;
+			sourceTree = "<group>";
+		};
+		2A638AE61C79BA7B00069061 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A638AE71C79BA7B00069061 /* Home */,
+				2A638AEC1C79BA7B00069061 /* Main */,
+				2A638AF11C79BA7B00069061 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A638AE71C79BA7B00069061 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A638AE81C79BA7B00069061 /* Controller */,
+				2A638AE91C79BA7B00069061 /* Model */,
+				2A638AEA1C79BA7B00069061 /* Tool */,
+				2A638AEB1C79BA7B00069061 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2A638AE81C79BA7B00069061 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00B61E521C79E21600C6C4B0 /* BJHomeViewController.h */,
+				00B61E531C79E21600C6C4B0 /* BJHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A638AE91C79BA7B00069061 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A7D4B601C7A9ED1004FCD31 /* BJHomeItmesModel.h */,
+				2A7D4B611C7A9ED2004FCD31 /* BJHomeItmesModel.m */,
+				2A7D4B631C7A9EFC004FCD31 /* BJHomeResultModel.h */,
+				2A7D4B641C7A9EFC004FCD31 /* BJHomeResultModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A638AEA1C79BA7B00069061 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				00B61E5A1C79E57800C6C4B0 /* BJHomeCellTool.h */,
+				00B61E5B1C79E57800C6C4B0 /* BJHomeCellTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2A638AEB1C79BA7B00069061 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00B61E551C79E42000C6C4B0 /* BJHomeCell.h */,
+				00B61E561C79E42000C6C4B0 /* BJHomeCell.m */,
+				00B61E571C79E42000C6C4B0 /* BJHomeCell.xib */,
+				00B61E5D1C79E71B00C6C4B0 /* BJHomeHeaderCell.h */,
+				00B61E5E1C79E71B00C6C4B0 /* BJHomeHeaderCell.m */,
+				00B61E5F1C79E71B00C6C4B0 /* BJHomeHeaderCell.xib */,
+				00B61E621C79EDB900C6C4B0 /* BJHomeAdCell.h */,
+				00B61E631C79EDB900C6C4B0 /* BJHomeAdCell.m */,
+				00B61E641C79EDB900C6C4B0 /* BJHomeAdCell.xib */,
+				00FF13CB1C7DDCD3001B16B6 /* BJHomeBottomView.h */,
+				00FF13CC1C7DDCD3001B16B6 /* BJHomeBottomView.m */,
+				00FF13CE1C7DDCEE001B16B6 /* BJHomeBottomView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A638AEC1C79BA7B00069061 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A638AED1C79BA7B00069061 /* Controller */,
+				2A638AEE1C79BA7B00069061 /* Model */,
+				2A638AEF1C79BA7B00069061 /* Tool */,
+				2A638AF01C79BA7B00069061 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A638AED1C79BA7B00069061 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A638B011C79BF2B00069061 /* BJNavigationController.h */,
+				2A638B021C79BF2B00069061 /* BJNavigationController.m */,
+				2A638AF21C79BAA900069061 /* BJMainViewController.h */,
+				2A638AF31C79BAA900069061 /* BJMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A638AEE1C79BA7B00069061 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A638AEF1C79BA7B00069061 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2A638AF01C79BA7B00069061 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A638AF11C79BA7B00069061 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2A7D4B661C7AA365004FCD31 /* BJiWiFiConst.h */,
+				2A7D4B671C7AA365004FCD31 /* BJiWiFiConst.m */,
+				2A7D4B681C7AA365004FCD31 /* BJiWiFiImport.h */,
+				2A7D4B4F1C7A9C4B004FCD31 /* temp */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2A7D4B4F1C7A9C4B004FCD31 /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				2A7D4B501C7A9C4B004FCD31 /* iwifi006.json */,
+				2A7D4B511C7A9C4C004FCD31 /* iwifi001.json */,
+				2A7D4B521C7A9C4C004FCD31 /* iwifi005.json */,
+				2A7D4B531C7A9C4C004FCD31 /* iwifi007.json */,
+				2A7D4B541C7A9C4C004FCD31 /* iwifi004.json */,
+				2A7D4B551C7A9C4C004FCD31 /* iwifi008--.json */,
+				2A7D4B561C7A9C4C004FCD31 /* iwifi003.json */,
+				2A7D4B571C7A9C4C004FCD31 /* iwifi002.json */,
+			);
+			path = temp;
+			sourceTree = "<group>";
+		};
+		C3561159C9F978283B38C0AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9214F3C2DC3D8078739CEE89 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A638AA51C79B79700069061 /* BJiWiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A638AD31C79B79800069061 /* Build configuration list for PBXNativeTarget "BJiWiFi" */;
+			buildPhases = (
+				67D823771E651CD76C09BFEA /* Check Pods Manifest.lock */,
+				2A638AA21C79B79700069061 /* Sources */,
+				2A638AA31C79B79700069061 /* Frameworks */,
+				2A638AA41C79B79700069061 /* Resources */,
+				BC83ED39B4AD0008A44FA000 /* Embed Pods Frameworks */,
+				7F5A5BBB7B14D28EA71AFABE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BJiWiFi;
+			productName = BJiWiFi;
+			productReference = 2A638AA61C79B79700069061 /* BJiWiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A638ABE1C79B79800069061 /* BJiWiFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A638AD61C79B79800069061 /* Build configuration list for PBXNativeTarget "BJiWiFiTests" */;
+			buildPhases = (
+				2A638ABB1C79B79800069061 /* Sources */,
+				2A638ABC1C79B79800069061 /* Frameworks */,
+				2A638ABD1C79B79800069061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A638AC11C79B79800069061 /* PBXTargetDependency */,
+			);
+			name = BJiWiFiTests;
+			productName = BJiWiFiTests;
+			productReference = 2A638ABF1C79B79800069061 /* BJiWiFiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A638AC91C79B79800069061 /* BJiWiFiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A638AD91C79B79800069061 /* Build configuration list for PBXNativeTarget "BJiWiFiUITests" */;
+			buildPhases = (
+				2A638AC61C79B79800069061 /* Sources */,
+				2A638AC71C79B79800069061 /* Frameworks */,
+				2A638AC81C79B79800069061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A638ACC1C79B79800069061 /* PBXTargetDependency */,
+			);
+			name = BJiWiFiUITests;
+			productName = BJiWiFiUITests;
+			productReference = 2A638ACA1C79B79800069061 /* BJiWiFiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A638A9E1C79B79700069061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BJ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KuangBing;
+				TargetAttributes = {
+					2A638AA51C79B79700069061 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2QQCH2EWT7;
+					};
+					2A638ABE1C79B79800069061 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2A638AA51C79B79700069061;
+					};
+					2A638AC91C79B79800069061 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2A638AA51C79B79700069061;
+					};
+				};
+			};
+			buildConfigurationList = 2A638AA11C79B79700069061 /* Build configuration list for PBXProject "BJiWiFi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A638A9D1C79B79700069061;
+			productRefGroup = 2A638AA71C79B79700069061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A638AA51C79B79700069061 /* BJiWiFi */,
+				2A638ABE1C79B79800069061 /* BJiWiFiTests */,
+				2A638AC91C79B79800069061 /* BJiWiFiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A638AA41C79B79700069061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A638AB61C79B79800069061 /* Assets.xcassets in Resources */,
+				2A7D4B581C7A9C4C004FCD31 /* iwifi006.json in Resources */,
+				00FF13CF1C7DDCEE001B16B6 /* BJHomeBottomView.xib in Resources */,
+				2A7D4B5A1C7A9C4C004FCD31 /* iwifi005.json in Resources */,
+				2A7D4B5F1C7A9C4C004FCD31 /* iwifi002.json in Resources */,
+				2A7D4B591C7A9C4C004FCD31 /* iwifi001.json in Resources */,
+				2A7D4B5E1C7A9C4C004FCD31 /* iwifi003.json in Resources */,
+				2A7D4B5B1C7A9C4C004FCD31 /* iwifi007.json in Resources */,
+				2A638AB41C79B79800069061 /* Main.storyboard in Resources */,
+				2A7D4B5D1C7A9C4C004FCD31 /* iwifi008--.json in Resources */,
+				00B61E661C79EDB900C6C4B0 /* BJHomeAdCell.xib in Resources */,
+				2A7D4B5C1C7A9C4C004FCD31 /* iwifi004.json in Resources */,
+				00B61E591C79E42000C6C4B0 /* BJHomeCell.xib in Resources */,
+				00B61E611C79E71B00C6C4B0 /* BJHomeHeaderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A638ABD1C79B79800069061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A638AC81C79B79800069061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67D823771E651CD76C09BFEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F5A5BBB7B14D28EA71AFABE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC83ED39B4AD0008A44FA000 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A638AA21C79B79700069061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B61E541C79E21600C6C4B0 /* BJHomeViewController.m in Sources */,
+				2A638AB11C79B79700069061 /* ViewController.m in Sources */,
+				2A638B031C79BF2B00069061 /* BJNavigationController.m in Sources */,
+				2A7D4B651C7A9EFC004FCD31 /* BJHomeResultModel.m in Sources */,
+				2A638AF41C79BAA900069061 /* BJMainViewController.m in Sources */,
+				00B61E581C79E42000C6C4B0 /* BJHomeCell.m in Sources */,
+				2A7D4B691C7AA365004FCD31 /* BJiWiFiConst.m in Sources */,
+				2A7D4B621C7A9ED2004FCD31 /* BJHomeItmesModel.m in Sources */,
+				00B61E651C79EDB900C6C4B0 /* BJHomeAdCell.m in Sources */,
+				2A638AAE1C79B79700069061 /* AppDelegate.m in Sources */,
+				00FF13CD1C7DDCD3001B16B6 /* BJHomeBottomView.m in Sources */,
+				00B61E5C1C79E57800C6C4B0 /* BJHomeCellTool.m in Sources */,
+				2A638AAB1C79B79700069061 /* main.m in Sources */,
+				00B61E601C79E71B00C6C4B0 /* BJHomeHeaderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A638ABB1C79B79800069061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A638AC41C79B79800069061 /* BJiWiFiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A638AC61C79B79800069061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A638ACF1C79B79800069061 /* BJiWiFiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A638AC11C79B79800069061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A638AA51C79B79700069061 /* BJiWiFi */;
+			targetProxy = 2A638AC01C79B79800069061 /* PBXContainerItemProxy */;
+		};
+		2A638ACC1C79B79800069061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A638AA51C79B79700069061 /* BJiWiFi */;
+			targetProxy = 2A638ACB1C79B79800069061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A638AB21C79B79800069061 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A638AB31C79B79800069061 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A638AD11C79B79800069061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A638AD21C79B79800069061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A638AD41C79B79800069061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FF6D09FFCD5188C14A5DFA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BJiWiFi/iWiF_Prefix.pch";
+				INFOPLIST_FILE = BJiWiFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJiWiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2A638AD51C79B79800069061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6243B33A8201CB0DF258391 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BJiWiFi/iWiF_Prefix.pch";
+				INFOPLIST_FILE = BJiWiFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJiWiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2A638AD71C79B79800069061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BJiWiFiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJiWiFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJiWiFi.app/BJiWiFi";
+			};
+			name = Debug;
+		};
+		2A638AD81C79B79800069061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BJiWiFiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJiWiFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJiWiFi.app/BJiWiFi";
+			};
+			name = Release;
+		};
+		2A638ADA1C79B79800069061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BJiWiFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJiWiFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJiWiFi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2A638ADB1C79B79800069061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BJiWiFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuangBing.BJiWiFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJiWiFi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A638AA11C79B79700069061 /* Build configuration list for PBXProject "BJiWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A638AD11C79B79800069061 /* Debug */,
+				2A638AD21C79B79800069061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A638AD31C79B79800069061 /* Build configuration list for PBXNativeTarget "BJiWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A638AD41C79B79800069061 /* Debug */,
+				2A638AD51C79B79800069061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A638AD61C79B79800069061 /* Build configuration list for PBXNativeTarget "BJiWiFiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A638AD71C79B79800069061 /* Debug */,
+				2A638AD81C79B79800069061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A638AD91C79B79800069061 /* Build configuration list for PBXNativeTarget "BJiWiFiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A638ADA1C79B79800069061 /* Debug */,
+				2A638ADB1C79B79800069061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A638A9E1C79B79700069061 /* Project object */;
+}
